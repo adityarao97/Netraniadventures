@@ -201,9 +201,39 @@
   transition:all 1s;
 }
 
-.parent:hover .card,.parent:focus .child{
+.parent:hover .card{
   transform:scale(1.03);
   box-shadow: 0 8px 4px -4px #777;
+}
+
+.parent:hover .card-img-overlay
+{
+  background: white;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  bottom: 20px;
+  left: 30px;
+  padding: 1.25rem;
+  height:80%;
+  width:300px;
+  opacity: 1;
+  border-radius: 0;
+}
+
+.parent:hover .card-img-overlay2
+{
+  background: white;
+  position: absolute;
+  top: 30px;
+    right: 0;
+    bottom: 20px;
+    left: 70%;
+  padding: 1.25rem;
+  height:80%;
+  width:300px;
+  opacity: 1;
+  border-radius: 0;
 }
 
 .card {
@@ -231,7 +261,25 @@
     padding: 1.25rem;
     height:80%;
     width:300px;
+    opacity: 0.8;
     border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-img-overlay2
+{
+    background: white;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    bottom: 20px;
+    left: 70%;
+    padding: 1.25rem;
+    height:80%;
+    width:300px;
+    opacity: 0.8;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .card-title {
