@@ -91,6 +91,18 @@ a:active {
   color: #fff;
 }
 
+#home-heading-gallery {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/gallery.jpg');
+  background-attachment: fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
 #home-icons {
   background: #1e272e;
    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -104,6 +116,7 @@ a:active {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
+
 
 
 #video-play {
@@ -125,6 +138,19 @@ a:active {
 #page-header {
   height: 200px;
   background: url('../img/image1.jpg');
+  /* background-position: 0 -360px; */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 00px;
+}
+
+#page-header-gallery {
+  height: 200px;
+  background: url('../img/gallery.jpg');
   /* background-position: 0 -360px; */
   /* background-attachment: fixed; */
   /* background-position: center; */
