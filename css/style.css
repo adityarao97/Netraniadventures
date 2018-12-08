@@ -6,6 +6,14 @@
   width: 100%;
 }
 
+.nolink {
+  color: #2f3640;
+}
+
+.nolink:hover {
+  color: #2f3640;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -165,8 +173,25 @@ a:active {
   padding-top: 00px;
 }
 
+#page-header-about {
+  height: 200px;
+  background: url('https://images.pexels.com/photos/943630/pexels-photo-943630.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  /* background-position: 0 -360px; */
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 00px;
+}
+
 .about-img {
-  margin-top: -50px;
+  border:2px solid #353b48;
+  border-style: ridge;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
 }
 
 #faq .card {
@@ -215,6 +240,15 @@ a:active {
 .header-hr {
   float: left;
   min-width: 450px;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #ffff;
+}
+
+.header-hr-about {
+  width: fit-content;
+  min-width: 380px;
   height: 1px;
   margin-top: 0;
   margin-bottom: 0;
